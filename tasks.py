@@ -23,7 +23,7 @@ app.conf.beat_schedule = {
 
 app.conf.timezone = 'UTC'  # Or your preferred timezone
 
-def send_email(to_email, subject, message, from_email='akashmauryapi007@gmail.com', password='hbwk sohj pvjp rwgl'):
+def send_email(to_email, subject, message, from_email='exapmle@gmail.com', password='your password'):
     msg = MIMEMultipart()
     msg['From'] = from_email
     msg['To'] = to_email
