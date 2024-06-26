@@ -25,6 +25,10 @@
     docker-compose up --build
     ```
 
-## Screenshot
+## Screenshot 1
+
+![Celery Redis Setup](https://github.com/Akashsky13/celery-redis-in-python/blob/main/Screenshot%202024-06-26%20125515.png)
+
+## Screenshot 2
 
 ![Celery Redis Setup](https://github.com/Akashsky13/celery-redis-in-python/blob/main/Screenshot%202024-06-26%20125615.png)
