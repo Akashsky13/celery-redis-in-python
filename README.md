@@ -1,13 +1,30 @@
-# celery redis in python
+# Celery with Redis in Python
 
-</br>
-Inside the tasks.py file change the email and password with your email and password.
-</br>
-And after opening the library.db change the email there as well so you can check it work or not
-</br>
-All you have to run on the terminal is 
-</br>
+## Setup Instructions
 
-docker up --build      </br>
+1. **Edit Configuration:**
 
-You have to download docker deman in your Laptop as well.
+    - Open `tasks.py`.
+    - Replace the email and password placeholders with your own email and password.
+
+    ```python
+    # tasks.py
+    YOUR EMAIL ID = 'exapmle@gmail.com'
+    PASSWORD = 'your_password'
+    ```
+
+    - Open `library.db` and update the email there as well to match your email for testing purposes.
+
+2. **Run Docker:**
+
+    Ensure you have Docker installed on your laptop. If not, download and install Docker from [here](https://www.docker.com/products/docker-desktop).
+
+    - Build and start the Docker containers:
+
+    ```sh
+    docker-compose up --build
+    ```
+
+## Screenshot
+
+![Celery Redis Setup](https://github.com/Akashsky13/celery-redis-in-python/blob/main/Screenshot%202024-06-26%20125615.png)
