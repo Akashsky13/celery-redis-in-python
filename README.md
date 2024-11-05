@@ -1,6 +1,8 @@
 # Celery with Redis in Python
 
 ## Setup Instructions
+<br>
+Author - Akash Maurya
 
 1. **Edit Configuration:**
 
@@ -32,3 +34,4 @@
 ## Screenshot 2
 
 ![Celery Redis Setup](https://github.com/Akashsky13/celery-redis-in-python/blob/main/Screenshot%202024-06-26%20125615.png)
+
